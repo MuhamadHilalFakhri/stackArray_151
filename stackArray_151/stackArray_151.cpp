@@ -3,8 +3,14 @@
 
 using namespace std;
 
-class Stack {
+class StackArray {
 private:
 	int stack_array[5];
-	int tip;
+	int top;
+
+public:
+	//constructor
+	StackArray() {
+		top = -1;
+	}
 };
